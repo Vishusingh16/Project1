@@ -179,6 +179,19 @@
   display:none;
 
 }
+#stream__box .video__container{
+  border:2px solid rgb(10, 10, 10);
+  border-radius: 0;
+  height: 100% !important;
+  width:100% !important;
+  background-size: 300px;
+/* check it after  WHILE   */
+}
+
+#stream__box{
+  border-radius:0%;
+
+}
 #streams__container{
   display:flex;
   flex-wrap:wrap;
@@ -199,7 +212,14 @@
   overflow:hidden;
   height:300px;
   width:300px;
+  background-image: url("/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
 }
+
+
+
 .video-player{
   height:100%;
   width:100%;
