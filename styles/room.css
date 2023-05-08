@@ -12,7 +12,7 @@
 }
 
 #members__container {
-  background-color: #262625;
+  background-color: #000000;
   border-right: 1px solid #797a79;
   overflow-y: auto;
   width: 90%;
@@ -75,7 +75,7 @@
 
 #messages__container {
   height: calc(100vh - 85px);
-  background-color: #262625;
+  background-color: #000000;
   right: 0;
   position: absolute;
   width: 100%;
